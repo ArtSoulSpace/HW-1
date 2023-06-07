@@ -1,3 +1,3 @@
 # HW-1
 
-Easy tasks on JS
+Simple tasks in JS
