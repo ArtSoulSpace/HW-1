@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Попросите пользователя ввести размер зарплаты. 
+        // Вычислите и выведите на экран:
+
+        // - Премию в размере 20%.
+        // - Подоходный налог 13% на суммарный доход (зп + премия).
+        // - Доход за вычетом налогов.
+        // - Бюджет на день.
+
+        let salary = Number(prompt('Введите вашу зарплату'));
+        let prize = salary * 0.2;
+        let sum = salary + prize;
+        let tax = sum * 0.13;
+        let result = sum - tax;
+        let moneyForTheDay = result / 30;
+
+        alert(`
+        Премия в размере 20% ${prize} руб
+        Налог ${tax} руб
+        Доход с вычетом налогов ${result} руб
+        Бюджет на день ${moneyForTheDay} руб`);
+
+    </script>
+</body>
+</html>
