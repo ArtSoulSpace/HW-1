@@ -1,3 +1,3 @@
-# HW-1
+# HW
 
 Simple tasks in JS
